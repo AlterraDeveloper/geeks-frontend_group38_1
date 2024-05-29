@@ -1,0 +1,27 @@
+
+.theme__container{
+    position: absolute;
+    top: -1.25em;
+    left: -1.25em;
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.theme__control{
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.theme__label img{
+    width: 2em;
+    height: 2em;
+    cursor: pointer;
+}
+
+.dark__theme{
+    background-color: #444 !important;
+    color: white !important;
+}
